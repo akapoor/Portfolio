@@ -12,7 +12,7 @@
 
 			        <div class="container">
 			            <div class="row">
-			                <div class="col-lg-5 col-sm-6">
+			                <div class="col-lg-7 col-sm-6">
 			                    <hr class="section-heading-spacer">
 			                    <div class="clearfix"></div>
 			                    <h2 class="section-heading">About Me</h2>
@@ -26,7 +26,7 @@
 
 			                    </p>
 			                </div>
-			                <div class="adjust-media col-lg-5 col-lg-offset-2 col-sm-6">
+			                <div class="anshul-photo col-lg-4 col-sm-6">
 			                    <img class="img-responsive" src="/public/img/anshul_pic.png" alt="">
 			                    <p><i>Post hike celebratory photo on top of Table Mountain (Cape Town, South Africa)</i></p>
 			                </div>
@@ -43,7 +43,7 @@
 			        <div class="container">
 
 			            <div class="row">
-			                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+			                <div class="col-lg-6 col-lg-offset col-sm-push-6  col-sm-6">
 			                    
 			                    <div class="clearfix"></div>
 			                    <h2>Bluetooth Bicycle Tracker</h2>
@@ -62,7 +62,7 @@
 			                    </p>
 			                </div>
 
-			                <div class="col-lg-5 col-sm-pull-6 col-sm-6">
+			                <div class="col-lg-4 col-sm-pull-6 col-sm-6 trullium-photo">
 							    <uib-carousel active="$ctrl.active" interval="$ctrl.myInterval" no-wrap="$ctrl.noWrapSlides">
 							      <uib-slide ng-repeat="slide in $ctrl.trilliumSlides track by slide.id" index="slide.id">
 							        <img ng-src="{{slide.src}}" style="margin:auto;">
@@ -85,7 +85,7 @@
 			        <div class="container">
 
 			            <div class="row">
-			                <div class="col-lg-5 col-sm-6">
+			                <div class="col-lg-7 col-sm-6">
 			                    <hr class="section-heading-spacer">
 			                    <div class="clearfix"></div>
 			                    <h2 class="section-heading">
@@ -104,7 +104,7 @@
 			                    <a href="http://apply.nybplan.com/" target="_blank">New York State Business Plan Competetion</a>.
 			                    </p>
 			                </div>
-			                <div class="adjust-media col-lg-5 col-lg-offset-2 col-sm-6">
+			                <div class="gobble-video col-lg-5 col-sm-6">
 			                	<iframe width="420" height="315" src="https://www.youtube.com/embed/mu8Znil3PCc" frameborder="0" allowfullscreen></iframe>
 			                </div>
 			            </div>
@@ -120,7 +120,7 @@
 			        <div class="container">
 
 			            <div class="row">
-			                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+			                <div class="col-lg-6 col-lg-offset col-sm-push-6  col-sm-6">
 			                    
 			                    <div class="clearfix"></div>
 			                    <h2>Lumberjack</h2></br>
@@ -140,7 +140,7 @@
 			                    </p>
 			                </div>
 
-			                <div class="adjust-media col-lg-5 col-sm-pull-6 col-sm-6">
+			                <div class="lumberjack-photo col-lg-6 col-sm-pull-6 col-sm-6">
 							    <uib-carousel active="$ctrl.active" interval="$ctrl.myInterval" no-wrap="$ctrl.noWrapSlides">
 							      <uib-slide ng-repeat="slide in $ctrl.lumberjackSlides track by slide.id" index="slide.id">
 							        <img ng-src="{{slide.src}}" style="margin:auto">
@@ -163,7 +163,7 @@
 			        <div class="container">
 
 			            <div class="row">
-			                <div class="col-lg-5 col-sm-6">
+			                <div class="col-lg-12 col-sm-6">
 			                    <hr class="section-heading-spacer">
 			                    <div class="clearfix"></div>
 			                    <h2 class="section-heading">Infrastructure Monitoring Tool</h2>
@@ -175,6 +175,7 @@
 			                    Key tasks included:
 			                    </br> - Building prototypes
 			                    </br> - Parsing data in real time
+			                    </br> - Building APIs to serve data
 			                    </br> - Designing a usable application
 			                    </br> - Documenting and pitching the final product
 			                    </p>

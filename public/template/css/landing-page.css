@@ -169,10 +169,24 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-.adjust-media {
-    padding-top: 5%;
+.anshul-photo {
+    padding-top: 7%;
+    margin-left: 6%;
+}
+
+.gobble-video {
+    padding-top: 7%;
+}
+
+.trullium-photo {
+    padding-top: 0.5%;
 }
 
 .gobble-logo{
     width: 10%;
+}
+
+.lumberjack-photo {
+    padding-top: 7%;
+    margin-left: -2%;
 }
