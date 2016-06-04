@@ -134,8 +134,8 @@
 			                    </br> - Building early prototypes
 			                    </br> - Parsing information from multiple log formats
 			                    </br> - Implementing API to serve data
-			                    </br> - Develop front end to present the data
-			                    </br> - Migrate code from test to prod environment
+			                    </br> - Developing front end to present the data
+			                    </br> - Migrating code from test to prod environment
 			                    </br> - Documenting all work 
 			                    </p>
 			                </div>
@@ -157,6 +157,35 @@
 
 			    </div>
 			    <!-- /.content-section-b -->
+
+			    <div class="content-section-a">
+
+			        <div class="container">
+
+			            <div class="row">
+			                <div class="col-lg-5 col-sm-6">
+			                    <hr class="section-heading-spacer">
+			                    <div class="clearfix"></div>
+			                    <h2 class="section-heading">Infrastructure Monitoring Tool</h2>
+			                    <i>Duration: 10 weeks</i>
+			                    <p class="lead">During my summer internship at <a href="https://www.jpmorganchase.com/">JP Morgan</a>, 
+			                    I built an infrastructure monitoring
+			                    tool which served to replace the old monitoring system. The web app had to serve real time
+			                    information and there was a high focus on usability.</br></br>
+			                    Key tasks included:
+			                    </br> - Building prototypes
+			                    </br> - Parsing data in real time
+			                    </br> - Designing a usable application
+			                    </br> - Documenting and pitching the final product
+			                    </p>
+			                </div>
+			            </div>
+
+			        </div>
+			        <!-- /.container -->
+
+			    </div>
+			    <!-- /.content-section-a -->
 
 				<a  name="contact"></a>
 			    <div class="banner">
@@ -184,6 +213,39 @@
 
 			        </div>
 			        <!-- /.container -->
+
+			        <div class="content-section-a">
+
+			        <div class="container">
+
+			            <div class="row">
+			                <div class="col-lg-5 col-sm-6">
+			                    <hr class="section-heading-spacer">
+			                    <div class="clearfix"></div>
+			                    <h2 class="section-heading">Gobble</h2>
+			                    <p class="lead">I built an 
+			                    </br></br>
+			                    Key tasks included:
+			                    </br> - Conducting market research (reaching out to prosective clients)
+			                    </br> - Developing business model, cash flow analysis
+			                    </br> - Building prototype
+			                    </br> - Pitching the final product
+			                    </br>*Gobble also qualified as a semi-finalist in the 
+			                    <a href="http://apply.nybplan.com/" target="_blank">New York State Business Plan Competetion</a>.
+			                    </p>
+			                </div>
+			                <div class="adjust-media col-lg-5 col-lg-offset-2 col-sm-6">
+			                	<iframe width="420" height="315" src="https://www.youtube.com/embed/mu8Znil3PCc" frameborder="0" allowfullscreen></iframe>
+			                </div>
+			            </div>
+
+			        </div>
+			        <!-- /.container -->
+
+			    </div>
+			    <!-- /.content-section-a -->
+
+
 
 			    </div>
 			    <!-- /.banner -->

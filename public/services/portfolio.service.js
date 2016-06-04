@@ -15,7 +15,7 @@
 			function getTopics () {
 				var topics = [
 						{ id: 0, name: 'About' },
-						{ id: 1, name: 'Projects' },
+						{ id: 1, name: 'Work' },
 						{ id: 2, name: 'Resume' },
 						{ id: 3, name: 'Adventures'}
 				];
