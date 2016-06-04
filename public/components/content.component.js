@@ -115,6 +115,49 @@
 			    </div>
 			    <!-- /.content-section-a -->
 
+			    <div class="content-section-b">
+
+			        <div class="container">
+
+			            <div class="row">
+			                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+			                    
+			                    <div class="clearfix"></div>
+			                    <h2>Lumberjack</h2></br>
+			                    <i>Duration: 10 weeks</i>
+			                    <p class="lead">I designed and developed a custom log parsing web tool from during 
+			                    my summer internship at <a href="http://www.timeinc.com/brands/">Time Inc.</a> I used a agile approach,
+			                    where I delivered working product in weekly iterations. I started form a POC and bulid iteratively upon that.
+			                    Constant customer interaction was key in order to incorporate their feedback.
+			                    </br></br>
+			                    Key tasks included:
+			                    </br> - Building early prototypes
+			                    </br> - Parsing information from multiple log formats
+			                    </br> - Implementing API to serve data
+			                    </br> - Develop front end to present the data
+			                    </br> - Migrate code from test to prod environment
+			                    </br> - Documenting all work 
+			                    </p>
+			                </div>
+
+			                <div class="adjust-media col-lg-5 col-sm-pull-6 col-sm-6">
+							    <uib-carousel active="$ctrl.active" interval="$ctrl.myInterval" no-wrap="$ctrl.noWrapSlides">
+							      <uib-slide ng-repeat="slide in $ctrl.lumberjackSlides track by slide.id" index="slide.id">
+							        <img ng-src="{{slide.src}}" style="margin:auto">
+							        <div class="carousel-caption">
+							          <h3>{{slide.name}}</h3>
+							        </div>
+							      </uib-slide>
+							    </uib-carousel>
+			                </div>
+			            </div>
+
+			        </div>
+			        <!-- /.container -->
+
+			    </div>
+			    <!-- /.content-section-b -->
+
 				<a  name="contact"></a>
 			    <div class="banner">
 
@@ -153,6 +196,7 @@
 
 		this.$onInit = function () {
 			this.trilliumSlides = portfolio.trilliumProjData();
+			this.lumberjackSlides = portfolio.lumberjackProjData();
 			this.myInterval = 4000;
 			this.noWrapSlides = "false";
 			this.active = "0";
