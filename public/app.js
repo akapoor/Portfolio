@@ -6,16 +6,17 @@ angular.module('portfolioApp', [ 'ui.router', 'ui.bootstrap', 'ngAnimate'])
 		$urlRouterProvider.otherwise('/');
 
 		$stateProvider
-			.state('home', {
+			.state('work', {
 				url: '/',
-				views: {
-					'header': {
-						component: 'home'
-					},
-					'content': {
-						component: 'content'
-					} 
-				}
+				component: 'work'	
+			})
+			.state('about', {
+				url: '/about',
+				component: 'about'
+			})
+			.state('gallery', {
+				url: '/gallery',
+				component: 'gallery'
 			})
 			
 	});
