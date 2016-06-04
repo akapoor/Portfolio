@@ -214,39 +214,6 @@
 			        </div>
 			        <!-- /.container -->
 
-			        <div class="content-section-a">
-
-			        <div class="container">
-
-			            <div class="row">
-			                <div class="col-lg-5 col-sm-6">
-			                    <hr class="section-heading-spacer">
-			                    <div class="clearfix"></div>
-			                    <h2 class="section-heading">Gobble</h2>
-			                    <p class="lead">I built an 
-			                    </br></br>
-			                    Key tasks included:
-			                    </br> - Conducting market research (reaching out to prosective clients)
-			                    </br> - Developing business model, cash flow analysis
-			                    </br> - Building prototype
-			                    </br> - Pitching the final product
-			                    </br>*Gobble also qualified as a semi-finalist in the 
-			                    <a href="http://apply.nybplan.com/" target="_blank">New York State Business Plan Competetion</a>.
-			                    </p>
-			                </div>
-			                <div class="adjust-media col-lg-5 col-lg-offset-2 col-sm-6">
-			                	<iframe width="420" height="315" src="https://www.youtube.com/embed/mu8Znil3PCc" frameborder="0" allowfullscreen></iframe>
-			                </div>
-			            </div>
-
-			        </div>
-			        <!-- /.container -->
-
-			    </div>
-			    <!-- /.content-section-a -->
-
-
-
 			    </div>
 			    <!-- /.banner -->
 			`
