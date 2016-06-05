@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('portfolioApp', [ 'ui.router', 'ui.bootstrap', 'ngAnimate'])
+angular.module('portfolioApp', [ 'ui.router', 'ui.bootstrap', 'ngAnimate', 'ngSanitize'])
 	.config(function ($stateProvider, $urlRouterProvider) {
 
 		$urlRouterProvider.otherwise('/');
@@ -14,9 +14,9 @@ angular.module('portfolioApp', [ 'ui.router', 'ui.bootstrap', 'ngAnimate'])
 				url: '/about',
 				component: 'about'
 			})
-			.state('gallery', {
+		/**	.state('gallery', {
 				url: '/gallery',
 				component: 'gallery'
-			})
+			}) */
 			
 	});

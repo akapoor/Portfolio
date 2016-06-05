@@ -1,51 +1,74 @@
 <!doctype html>
 <html lang="en">
 	
-<head>
+    <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <title>Anshul Kapoor Portfolio</title>
+        <title>Anshul Kapoor Portfolio</title>
+        
+        <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    <!-- Custom Fonts -->
-    <link href="public/template/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+          ga('create', 'UA-78765156-1', 'auto');
+          ga('send', 'pageview');
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-alpha.5/angular-ui-router.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.js"></script>
+        </script>
 
-    <!-- Angularjs dependencies -->
-    <script src="public/app.js"></script>
-    <script src="public/services/portfolio.service.js"></script>
-    <script src="public/components/work.component.js"></script>
-    <script src="public/components/about.component.js"></script>
-    <script src="public/components/gallery.component.js"></script>
-    <script src="public/controllers/navigationCtrl.js"></script>
-    
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
-    <!-- Bootstrap Core CSS -->
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="public/template/css/landing-page.css" rel="stylesheet">
+        <!-- Angularjs imports -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-alpha.5/angular-ui-router.min.js"></script>
+        <script src="https://code.angularjs.org/1.5.5/angular-animate.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.5/angular-sanitize.min.js"></script>
 
-</head>
+        <!-- app dependencies -->
+        <script src="public/app.js"></script>
+        <script src="public/services/portfolio.service.js"></script>
+        <script src="public/services/content.service.js"></script>
+        <script src="public/components/work.component.js"></script>
+        <script src="public/components/about.component.js"></script>
+        <script src="public/components/gallery.component.js"></script>
+        <script src="public/controllers/homeCtrl.js"></script>
+
+        <!--jQuery -->
+        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+        <!-- Custom Fonts -->
+        <link href="public/template/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- Bootstrap ui js -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <!-- Custom CSS -->
+        <link href="public/template/css/landing-page.css" rel="stylesheet">
+
+    </head>
 	<body ng-app="portfolioApp">
 
         <!-- Navigation Bar -->
-        <div ng-controller="NavigationController as ctrl">
+        <div ng-controller="HomeController as ctrl">
 
             <nav class="navbar navbar-default navbar-fixed-top topnav navbar-transparent " role="navigation">
-                <div class="container topnav">
+                <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -71,26 +94,25 @@
         <div ui-view></div>
 
         <!-- Banner -->
-        <div class="banner">
+        <div class="banner" ng-controller='HomeController as ctrl'>
 
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <h2>You can always reach me at:</h2>
                     </div>
-                    <div class="col-lg-6">
+
+                    <div class="col-lg-7">
                         <ul class="list-inline banner-social-buttons">
-                            <li>
-                                <a href="https://github.com/akapoor" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://linkedin.com/in/anshulkapoor27" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                            <li>
-                                <a href="mailto:anshuls11@gmail.com?Subject=Hello!" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                            <li ng-repeat="item in ctrl.mediaLinks track by item.id">
+                                <a href={{item.src}} target="_blank" class="btn btn-default btn-lg">
+                                    <i class={{item.icon}}></i>
+                                    <span class="network-name">{{item.name}}</span>
+                                </a>
                             </li>
                         </ul>
                     </div>
+
                 </div>
 
             </div>
@@ -98,5 +120,6 @@
 
         </div>
         <!-- /.banner -->
+
 	</body>
 </html>
