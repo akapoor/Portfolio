@@ -78,8 +78,8 @@
 				var content = 
 				{
 					body: "I designed and developed a custom log parsing web tool from during "+
-		                    "my summer internship at <a href='http://www.timeinc.com/brands/'>Time Inc.</a> I used a agile approach,"+
-		                    "where I delivered working product in weekly iterations. I started form a POC and bulid iteratively upon that."+
+		                    "my summer internship at <a href='http://www.timeinc.com/brands/'>Time Inc.</a> I used a agile approach, "+
+		                    "where I delivered working product in weekly iterations. I started form a POC and bulid iteratively upon that. "+
 		                    "Constant customer interaction was key in order to incorporate their feedback."+
 		                    "</br></br>"+
 		                    "Key tasks included:"+
